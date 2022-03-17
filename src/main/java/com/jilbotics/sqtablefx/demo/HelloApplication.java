@@ -1,4 +1,4 @@
-package com.jilbotics.sqtablefx;
+package com.jilbotics.sqtablefx.demo;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

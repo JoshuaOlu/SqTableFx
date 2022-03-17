@@ -24,7 +24,7 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'com.jilbotics.sqtablefx'
-    mainClass = 'com.jilbotics.sqtablefx.HelloApplication'
+    mainClass = 'com.jilbotics.sqtablefx.demo.HelloApplication'
 }
 
 javafx {

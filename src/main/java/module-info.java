@@ -6,6 +6,6 @@ module com.jilbotics.sqtablefx {
     requires java.sql;
     requires org.xerial.sqlitejdbc;
 
-    opens com.jilbotics.sqtablefx to javafx.fxml;
-    exports com.jilbotics.sqtablefx;
+    exports com.jilbotics.sqtablefx.demo;
+    opens com.jilbotics.sqtablefx.demo to javafx.fxml;
 }

@@ -12,9 +12,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.jilbotics.sqtablefx.HelloController.sqliteConnection;
+import static com.jilbotics.sqtablefx.demo.HelloController.sqliteConnection;
 
 public class TableNode {
+    /**
+     * To get a tableview node for the specified table name in the sqlite table
+     * @param tableName the table name in the sqlite database
+     * @return the tableview equivalent of sqlite table in JavaFx TableView node
+     * @throws SQLException
+     */
     public static TableView getTableNode(String tableName) throws SQLException {
         TableView tableView = new TableView();
 

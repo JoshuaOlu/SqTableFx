@@ -1,4 +1,4 @@
-package com.jilbotics.sqtablefx;
+package com.jilbotics.sqtablefx.demo;
 
 import com.jilbotics.sqtablefx.sqlite.SqliteConnection;
 import com.jilbotics.sqtablefx.sqlite.Test;
@@ -70,7 +70,7 @@ public class HelloController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        dbFile = new File("/Users/joshuaolunlade/IdeaProjects/SqTableFx/Files/test.db");
+        dbFile = new File("/Users/joshuaolunlade/Documents/dbTest/test.db");
         sqliteConnection = new SqliteConnection(dbFile);
     }
 
